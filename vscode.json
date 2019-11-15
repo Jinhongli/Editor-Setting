@@ -1,28 +1,20 @@
 {
   "editor.fontLigatures": true,
-  "editor.fontFamily": "'Dank Mono', 'mononoki', Consolas, 'Courier New', monospace, '微软雅黑' ",
+  "editor.fontFamily": "'Dank Mono', Consolas, 'Courier New', monospace, 'Sarasa Mono SC', '微软雅黑'",
   "editor.tokenColorCustomizations": {
     "textMateRules": [
       {
         "scope": [
-          "keyword.control.module.js",
-          "keyword.control.from.js",
-          "keyword.control.flow.js",
-          "keyword.control.loop.js",
-          "keyword.control.conditional.js",
-          "keyword.operator.in.js",
-          "storage.type.js",
-          "storage.type.class.js",
-          "storage.type.extends.js",
-          "storage.type.function.js",
-          "variable.language.this.js",
+          "keyword",
+          "storage.type",
+          "variable.language.this",
         ],
         "settings": {
           "fontStyle": "italic"
         }
       }
     ]
-},
+  },
 "editor.fontSize": 14,
 "editor.tabSize": 2,
 "window.zoomLevel": 1.3,
